@@ -5,6 +5,12 @@ on:
       - master
   pull_request:
     types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person to greet'
+        required: true
+        default: 'Mona the Octocat'
 jobs:
   build:
     name: Build

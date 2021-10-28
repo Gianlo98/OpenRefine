@@ -54,6 +54,8 @@
 
 
   <properties>
+    <sonar.organization>gianlo</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <jee.path>/</jee.path>
     <jee.port>3333</jee.port>
     <refine.data>/tmp/refine</refine.data>
